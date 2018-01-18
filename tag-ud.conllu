@@ -1,0 +1,17 @@
+# sent_id = schachter-otanes-60-0
+# text = Gumising ang bata.
+# text_en = The child awoke.
+1   Gumising    gising      VERB    VBD     Mood=Ind|Aspect=Perf|VerbForm=Fin|Voice=Pass   2   xcomp    2:xcomp            _
+2   ang         ang         DET     DET     Definite=Def|PronType=Art                      0   root     0:root             _
+3   bata        bata        NOUN    NN      Number=Sing|Case=Abs                           2   nsubj    2:nsubj            SpaceAfter=No
+4   .           .           PUNCT   .       _                                              2   punct    2:punct            _
+
+# sent_id = schachter-otanes-60-1
+# text = Ginising ng ingay ang bata.
+# text_en = A noise awakened the child.
+1   Ginising    gising      VERB    VBN     Mood=Ind|Aspect=Perf|VerbForm=Fin|Voice=Act    0   root     0:root           _
+2   ng          ng          PART    NG      PartType=Poss|Case=Gen                         3   case     3:case           _
+3   ingay       ingay       NOUN    NN      Number=Sing|Case=Gen|Number=Coll               1   nsubj    1:nsubj          _
+4   ang         ang         DET     DET     Definite=Def|PronType=Art                      4   det      5:case           _
+5   bata        bata        NOUN    NN      Number=Sing|Case=Abs                           1   obj      1:obj            _
+6   .           .           PUNCT   .       _                                              1   punct    1:punct          _
