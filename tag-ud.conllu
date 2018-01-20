@@ -1,17 +1,27 @@
 # sent_id = schachter-otanes-60-0
 # text = Gumising ang bata.
 # text_en = The child awoke.
-1   Gumising    gising      VERB    VBD     Mood=Ind|Aspect=Perf|VerbForm=Fin|Voice=Pass   2   xcomp    2:xcomp            _
-2   ang         ang         DET     DET     Definite=Def|PronType=Art                      0   root     0:root             _
-3   bata        bata        NOUN    NN      Number=Sing|Case=Abs                           2   nsubj    2:nsubj            SpaceAfter=No
-4   .           .           PUNCT   .       _                                              2   punct    2:punct            _
+1   Gumising    gising      VERB    VBD     Mood=Ind|Aspect=Perf|VerbForm=Fin|Voice=Pass   0   root     0:root            _
+2   ang         ang         DET     DET     Definite=Def|PronType=Art                      3   det      3:det             _
+3   bata        bata        NOUN    NN      Number=Sing|Case=Abs                           1   nsubj    1:nsubj           _
+4   .           .           PUNCT   .       _                                              1   punct    1:punct           _
 
 # sent_id = schachter-otanes-60-1
 # text = Ginising ng ingay ang bata.
 # text_en = A noise awakened the child.
-1   Ginising    gising      VERB    VBN     Mood=Ind|Aspect=Perf|VerbForm=Fin|Voice=Act    0   root     0:root           _
-2   ng          ng          PART    NG      PartType=Poss|Case=Gen                         3   case     3:case           _
-3   ingay       ingay       NOUN    NN      Number=Sing|Case=Gen|Number=Coll               1   nsubj    1:nsubj          _
-4   ang         ang         DET     DET     Definite=Def|PronType=Art                      4   det      5:case           _
+1   Ginising    gising      VERB    VBD     Mood=Ind|Aspect=Perf|VerbForm=Fin|Voice=Act    0   root     0:root           _
+2   ng          ng          ADP     _       PartType=Poss|Case=Gen                         3   case     3:case           _
+3   ingay       ingay       NOUN    NN      Number=Coll|Case=Gen                           1   nsubj    1:nsubj          _
+4   ang         ang         DET     DET     Definite=Def|PronType=Art                      5   det      5:det            _
 5   bata        bata        NOUN    NN      Number=Sing|Case=Abs                           1   obj      1:obj            _
 6   .           .           PUNCT   .       _                                              1   punct    1:punct          _
+
+# sent_id = schachter-otanes-62-1
+# text = Artista ang nagluto ng pagkain.
+# text_en = The one who cooked some food is an actress.
+1   Artista     artista     NOUN     NN     Number=Sing|Case=Erg                                3   nsubj   3:nsubj     _
+2   ang         ang         ADP      _      Case=Erg                                            1   case    1:case      _
+3   nagluto     luto        VERB     VBD    Mood=Ind|Aspect=Perf|VerbForm=Fin|Voice=AgentFoc    0   root    0:root      _
+4   ng          ng          PART     NG     PartType=Mod                                        5   mark    5:mark      _
+5   pagkain     pagkain     NOUN     NN     Number=Coll|Case=Abs                                3   obj     3:obj       _
+6   .           .           PUNCT    .      _                                                   3   punct   3:punct     _
