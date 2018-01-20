@@ -25,3 +25,10 @@
 4   ng          ng          PART     NG     PartType=Mod                                        5   mark    5:mark      _
 5   pagkain     pagkain     NOUN     NN     Number=Coll|Case=Abs                                3   obj     3:obj       _
 6   .           .           PUNCT    .      _                                                   3   punct   3:punct     _
+
+# sent_id = devos-71-0
+# text = Nakita kita.
+# text_en = I saw you.
+1   Nakita  kita       VBD     VBD     Mood=Ind|Aspect=Perf|VerbForm=Fin|Voice=Act            0   root    0:root      _
+2   kita    ko-ka      NOUN    PRP     Number=Sing|Voice=ConvFoc|Person=Dual|Case=Abs         1   obj     1:obj       _
+3   .       .          PUNCT   .       _                                                      1   punct   1:punct     _

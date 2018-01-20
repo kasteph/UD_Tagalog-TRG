@@ -14,6 +14,8 @@ UD_Tagalog is a proof of concept treebank for Tagalog. This treebank uses the [C
 
 - Do I mark Case feature on the particle or the noun?
 
+- kita is ko-ka -> me-you. 
+
 ## Notes
 
 `sent_id` format:
@@ -27,6 +29,14 @@ where:
 - `page_number` is the number of the page in the book or article (or an `_` otherwise)
 
 - `sentence-position-in-page` a 0-indexed position of the sentence i.e. if there are 3 example sentences in one page, 0 would be the first example in that page.
+
+- Voice annotations are from UniMorph schema:
+
+    - AgentFoc is Agent Focus.
+
+    - ConvFoc is Conveyed Focus.
+
+- Person as Dual and Case as Abs for kita (absolutive dual) since it conveys from "I" to "you" in one word.
 
 ## Resources
 
