@@ -1,34 +1,69 @@
 # sent_id = schachter-otanes-60-0
 # text = Gumising ang bata.
 # text_en = The child awoke.
-1   Gumising    gising      VERB    VBD     Mood=Ind|Aspect=Perf|VerbForm=Fin|Voice=Pass   0   root     0:root            _
-2   ang         ang         DET     DET     Definite=Def|PronType=Art                      3   det      3:det             _
-3   bata        bata        NOUN    NN      Number=Sing|Case=Abs                           1   nsubj    1:nsubj           _
-4   .           .           PUNCT   .       _                                              1   punct    1:punct           _
+1   Gumising    gising      VERB    VBD     Mood=Ind|Aspect=Perf|VerbForm=Fin              0   root     _   Focus=Actor
+2   ang         ang         DET     DT      Definite=Def|PronType=Art                      3   det      _   _
+3   bata        bata        NOUN    NN      Number=Sing|Case=Abs                           1   nsubj    _   _
+4   .           .           PUNCT   .       _                                              1   punct    _   _
 
 # sent_id = schachter-otanes-60-1
 # text = Ginising ng ingay ang bata.
 # text_en = A noise awakened the child.
-1   Ginising    gising      VERB    VBD     Mood=Ind|Aspect=Perf|VerbForm=Fin|Voice=Act    0   root     0:root           _
-2   ng          ng          ADP     _       PartType=Poss|Case=Gen                         3   case     3:case           _
-3   ingay       ingay       NOUN    NN      Number=Coll|Case=Gen                           1   nsubj    1:nsubj          _
-4   ang         ang         DET     DET     Definite=Def|PronType=Art                      5   det      5:det            _
-5   bata        bata        NOUN    NN      Number=Sing|Case=Abs                           1   obj      1:obj            _
-6   .           .           PUNCT   .       _                                              1   punct    1:punct          _
+1   Ginising    gising      VERB    VBD     Mood=Ind|Aspect=Perf|VerbForm=Fin              0   root     _   Focus=Goal
+2   ng          ng          ADP     _       PartType=Poss|Case=Gen                         3   case     _   _
+3   ingay       ingay       NOUN    NN      Number=Coll|Case=Gen                           1   nsubj    _   _
+4   ang         ang         DET     DT      Definite=Def|PronType=Art                      5   det      _   _
+5   bata        bata        NOUN    NN      Number=Sing|Case=Abs                           1   obj      _   _
+6   .           .           PUNCT   .       _                                              1   punct    _   _
+
+# sent_id = schachter-otanes-60-2
+# text = Sinulat ko ang liham.
+# text_en = I wrote the letter.
+1   Sinulat     sulat       VERB    VBD     Mood=Ind|Aspect=Perf|VerbForm=Fin              0    root    _   Focus=Goal
+2   ko          ko          PRON    PRP     Number=Sing|Person=1|Case=Erg                  1    nsubj   _   _
+3   ang         ang         DET     DT      Definite=Def|PronType=Art                      4    det     _   _
+4   liham       liham       NOUN    NN      Number=Sing|Case=Abs                           1    obj     _   _
+5   .           .           PUNCT   .       _                                              1    punct   _   _
+
+# sent_id = schachter-otanes-60-3
+# text = Sinulatan ko ang titser.
+# text_en = I wrote to the teacher.
+1   Sinulatan     sulat       VERB    VBD     Mood=Ind|Aspect=Perf|VerbForm=Fin              0    root    _   Focus=Ben
+2   ko            ko          PRON    PRP     Number=Sing|Person=1|Case=Erg                  1    nsubj   _   _
+3   ang           ang         DET     DT      Definite=Def|PronType=Art                      4    det     _   _
+4   titser        titser      NOUN    NN      Number=Sing|Case=Abs                           1    obj     _   _
+5   .             .           PUNCT   .       _                                              1    punct   _   _
+
+# sent_id = schachter-otanes-61-2
+# text = Dumarating na ang bus.
+# text_en = The bus is coming now.
+1   Dumarating      dating     VERB    VBG    Mood=Ind|Aspect=Prog                           0    root    _   Focus=Actor
+2   na              na         ADV     RB     _                                              1    advmod  _   Enclitic=1
+3   ang             ang        DET     DT     Definite=Def|PronType=Art                      4    det     _   _
+4   bus             bus        NOUN    NN     Number=Sing|Case=Abs|Foreign=Yes               1    nsubj   _   _
+5   .               .          PUNCT   .      _                                              1    punct   _   _
+
+# sent_id = schachter-otanes-61-3
+# text = Artista ang babae.
+# text_en = The woman is an actress.
+1   Artista     artista     NOUN    NVP    _                            2    nmod    _   _                   
+2   ang         ang         DET     DT     Definite=Def|PronType=Art    0    root    _   _
+3   babae       babae       NOUN    NN     Number=Sing                  2    nsubj   _   _
+4   .           .           PUNCT   .      _                            2    punct   _   _
 
 # sent_id = schachter-otanes-62-1
 # text = Artista ang nagluto ng pagkain.
 # text_en = The one who cooked some food is an actress.
-1   Artista     artista     NOUN     NN     Number=Sing|Case=Erg                                3   nsubj   3:nsubj     _
-2   ang         ang         ADP      _      Case=Erg                                            1   case    1:case      _
-3   nagluto     luto        VERB     VBD    Mood=Ind|Aspect=Perf|VerbForm=Fin|Voice=AgentFoc    0   root    0:root      _
-4   ng          ng          PART     NG     PartType=Mod                                        5   mark    5:mark      _
-5   pagkain     pagkain     NOUN     NN     Number=Coll|Case=Abs                                3   obj     3:obj       _
-6   .           .           PUNCT    .      _                                                   3   punct   3:punct     _
+1   Artista     artista     NOUN     NN     Number=Sing|Case=Erg                                3   nsubj   _   _
+2   ang         ang         ADP      _      Case=Erg                                            1   case    _   _
+3   nagluto     luto        VERB     VBD    Mood=Ind|Aspect=Perf|VerbForm=Fin                   0   root    _   Focus=Actor
+4   ng          ng          PART     NG     PartType=Mod                                        5   mark    _   _
+5   pagkain     pagkain     NOUN     NN     Number=Coll|Case=Abs                                3   obj     _   _
+6   .           .           PUNCT    .      _                                                   3   punct   _   _
 
 # sent_id = devos-71-0
 # text = Nakita kita.
 # text_en = I saw you.
-1   Nakita  kita       VBD     VBD     Mood=Ind|Aspect=Perf|VerbForm=Fin|Voice=Act            0   root    0:root      _
-2   kita    ko-ka      NOUN    PRP     Number=Sing|Voice=ConvFoc|Person=Dual|Case=Abs         1   obj     1:obj       _
-3   .       .          PUNCT   .       _                                                      1   punct   1:punct     _
+1   Nakita  kita       VBD     VBD     Mood=Ind|Aspect=Perf|VerbForm=Fin                      0   root    _     Focus=Goal
+2   kita    ko-ka      PRON    PRP     Number=Sing|Voice=ConvFoc|Person=Dual|Case=Abs         1   obj     _     _
+3   .       .          PUNCT   .       _                                                      1   punct   _     _
