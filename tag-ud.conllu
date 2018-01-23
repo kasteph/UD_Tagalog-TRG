@@ -51,6 +51,22 @@
 3   babae       babae       NOUN    NN     Number=Sing                  2    nsubj   _   _
 4   .           .           PUNCT   .      _                            2    punct   _   _
 
+# sent_id = schachter-otanes-61-4
+# text = Maganda ang babae.
+# text_en = The woman is beautiful.
+1   Maganda     ganda       ADJ     AVP    _                            2    amod    _   _
+2   ang         ang         DET     DT     Definite=Def|PronType=Art    0    root    _   _
+3   babae       babae       NOUN    NN     Number=Sing                  2    nsubj   _   _
+4   .           .           PUNCT   .      _                            2    punct   _   _
+
+# sent_id = schachter-otanes-61-4
+# text = Yumaman ang babae.
+# text_en = The woman got rich.
+1   Yumaman     yaman       VERB    VBD    Mood=Ind|Aspect=Perf         0    root    _   Focus=Actor
+2   ang         ang         DET     DT     Definite=Def|PronType=Art    3    det     _   _
+3   babae       babae       NOUN    NN     Number=Sing                  1    nsubj   _   _
+4   .           .           PUNCT   .      _                            1    punct   _   _
+
 # sent_id = schachter-otanes-62-1
 # text = Artista ang nagluto ng pagkain.
 # text_en = The one who cooked some food is an actress.
