@@ -19,6 +19,10 @@ This is to account for the zero copula in Tagalog [Schachter, pp. 61]. This appr
 
 Schachter pp. 411. Enclitics are divided into four classes. TODO: DESCRIBE THESE 4 CLASSES.
 
+## Adjectives
+
+Superlatives [JJS] - [Reduplication](http://www.seasite.niu.edu/Tagalog/Grammar%20Activities/Grammar%201/Adjectives/Adjectives-fs.htm)
+
 ## Verbs
 
 ### Empty Copula

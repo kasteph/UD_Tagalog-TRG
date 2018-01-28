@@ -12,7 +12,7 @@
 1   Ginising    gising      VERB    VBD     Mood=Ind|Aspect=Perf|VerbForm=Fin              0   root     _   Focus=Goal
 2   ng          ng          ADP     _       PartType=Poss|Case=Gen                         3   case     _   _
 3   ingay       ingay       NOUN    NN      Number=Coll|Case=Gen                           1   nsubj    _   _
-4   ang         ang         DET     DT      Definite=Def|PronType=Art                      5   det      _   _
+4   ang         ang         DET     DT      Definite=Def|Genpe=Art                         5   det      _   _
 5   bata        bata        NOUN    NN      Number=Sing|Case=Abs                           1   obj      _   _
 6   .           .           PUNCT   .       _                                              1   punct    _   _
 
@@ -46,18 +46,18 @@
 # sent_id = schachter-otanes-61-3
 # text = Artista ang babae.
 # text_en = The woman is an actress.
-1   Artista     artista     NOUN    NVP    _                            2    nmod    _   _                   
-2   ang         ang         DET     DT     Definite=Def|PronType=Art    0    root    _   _
-3   babae       babae       NOUN    NN     Number=Sing                  2    nsubj   _   _
-4   .           .           PUNCT   .      _                            2    punct   _   _
+1   Artista     artista     NOUN    NN     Number=Sing|Case=Abs         0    nmod    _   _                   
+2   ang         ang         DET     DT     Definite=Def|PronType=Art    3    root    _   _
+3   babae       babae       NOUN    NN     Number=Sing                  1    nsubj   _   _
+4   .           .           PUNCT   .      _                            1    punct   _   _
 
 # sent_id = schachter-otanes-61-4
 # text = Maganda ang babae.
 # text_en = The woman is beautiful.
-1   Maganda     ganda       ADJ     AVP    _                            2    amod    _   _
-2   ang         ang         DET     DT     Definite=Def|PronType=Art    0    root    _   _
-3   babae       babae       NOUN    NN     Number=Sing                  2    nsubj   _   _
-4   .           .           PUNCT   .      _                            2    punct   _   _
+1   Maganda     ganda       ADJ     JJ     Degree=Pos                   0    amod    _   _
+2   ang         ang         DET     DT     Definite=Def|PronType=Art    3    root    _   _
+3   babae       babae       NOUN    NN     Number=Sing                  1    nsubj   _   _
+4   .           .           PUNCT   .      _                            1    punct   _   _
 
 # sent_id = schachter-otanes-61-4
 # text = Yumaman ang babae.
@@ -79,11 +79,110 @@
 # text = Artista ang nagluto ng pagkain.
 # text_en = The one who cooked some food is an actress.
 1   Artista     artista     NOUN     NN     Number=Sing|Case=Erg                                3   nsubj   _   _
-2   ang         ang         ADP      _      Case=Erg                                            1   case    _   _
+2   ang         ang         ADP      _      Case=Abs                                            1   case    _   _
 3   nagluto     luto        VERB     VBD    Mood=Ind|Aspect=Perf|VerbForm=Fin                   0   root    _   Focus=Actor
-4   ng          ng          PART     NG     PartType=Mod                                        5   mark    _   _
-5   pagkain     pagkain     NOUN     NN     Number=Coll|Case=Abs                                3   obj     _   _
+4   ng          ng          PART     NG     PartType=Mod|Case=Gen                               5   case    _   _
+5   pagkain     pagkain     NOUN     NN     Number=Coll|Case=Gen                                3   obj     _   _
 6   .           .           PUNCT    .      _                                                   3   punct   _   _
+
+# sent_id = schachter-otanes-64-0
+# text = Siya ang Amerikano.
+# text_en = He's the American.
+1   Siya        ang         PRON    PRP     Case=Erg|Number=Sing|Person=3|PronType=Prs      0   root    _   _
+2   ang         ang         DET     DT      Definite=Def|PronType=Art                       3   det     _   _
+3   Amerikano   amerikano   NOUN    NN      Case=Abs|Number=Sing                            1   obj     _   _
+4   .           .           PUNCT   .       _                                               1   punct   _   _
+
+# sent_id = schachter-otanes-64-1
+# text = Iyan ang bahay.
+# text_en = That's the house.
+1   Iyan    ang        PRON       DT    Number=Sing|PronType=Dem   0   root    _   _                    
+2   ang     ang        DET        DT    Definite=Def|PronType=Art  3   det     _   _
+3   bahay   bahay      NOUN       NN    Case=Abs|Number=Sing       1   obj     _   _
+4   .       .          PUNCT      .     _                          1   punct   _   _
+
+# sent_id = schachter-otanes-64-2
+# text = Si Juan ang bunso.
+# text_en = Juan's the youngest child.
+1  Si       ang     DET         DT      Number=Sing|PronType=Art|Case=Abs       2   det     _   _
+2  Juan     Juan    PROPN       NNP     Number=Sing                             4   nsubj   _   _
+3  ang      ang     DET         DT      Definite=Def|PronType=Art               4   det     _   _
+4  bunso    bunso   NOUN        NN      Case=Abs                                0   root    _   _
+5  .        .       PUNCT       .       _                                       4   punct   _   _
+
+# sent_id = schachter-otanes-64-3
+# text = Isda ang bakalaw.
+# text_en = The cod is a fish.
+1   Isda        isda       NOUN     NN    Number=Sing|Case=Abs          0   root    _   _
+2   ang         ang        DET      DT    Definite=Def|PronType=Art     3   det     _   _
+3   bakalaw     bakalaw    NOUN     NN    Number=Sing|Case=Erg          1   nsubj   _   _
+4   .           .          PUNCT    .     _                             1   punct   _   _
+
+# sent_id = schachter-otanes-64-4
+# text = Isda ang pagkain niya.
+# text_en = His meal was some fish.
+1   Isda        isda      NOUN      NN    Number=Sing|Case=Abs          0   root      _   _
+2   ang         ang       DET       DT    Definite=Def|PronType=Art     3   det       _   _
+3   pagkain     pagkain   NOUN      NN    Number=Sing|Case=Erg          4   nsubj     _   _
+4   niya        ng        PRON      PRP   Case=Gen                      1   case      _   _
+5   .           .         PUNCT     .     _                             1   punct     _   _
+
+# sent_id = schachter-otanes-64-5
+# text = Isda ang paborito niya.
+# text_en = His favorite is fish.
+1   Isda        isda      NOUN      NN    Number=Sing|Case=Abs          0   root      _   _
+2   ang         ang       DET       DT    Definite=Def|PronType=Art     3   det       _   _
+3   paborito    paborito  NOUN      NN    Number=Sing|Case=Erg          4   nsubj     _   _
+4   niya        ng        PRON      PRP   Case=Gen                      1   case      _   _
+5   .           .         PUNCT     .     _                             1   punct     _   _
+
+# sent_id = schachter-otanes-64-6
+# text = Bato ang bahay.
+# text_en = The house is stone.
+1   Bato        bato       NOUN     NN    Number=Sing|Case=Abs          0   root    _   _
+2   ang         ang        DET      DT    Definite=Def|PronType=Art     3   det     _   _
+3   bahay       bahay      NOUN     NN    Number=Sing|Case=Erg          1   nsubj   _   _
+4   .           .          PUNCT    .     _                             1   punct   _   _
+
+# sent_id = schachter-otanes-64-7
+# text = Bago ang bahay.
+# text_en = The house is new.
+1   Bago        bago       ADJ      JJ    Degree=Pos                    0   root    _   _
+2   ang         ang        DET      DT    Definite=Def|PronType=Art     3   det     _   _
+3   bahay       bahay      NOUN     NN    Number=Sing|Case=Abs          1   nsubj   _   _
+4   .           .          PUNCT    .     _                             1   punct   _   _
+
+# sent_id = schachter-otanes-65-0
+# text = Bagong-bago ang bahay.
+# text_en = The house is very new.
+1   Bagong-bago   bago       ADJ      JJS    Degree=Sup                    0   root    _   _
+2   ang           ang        DET      DT     Definite=Def|PronType=Art     3   det     _   _
+3   bahay         bahay      NOUN     NN     Number=Sing|Case=Abs          1   nsubj   _   _
+4   .             .          PUNCT    .      _                             1   punct   _   _
+
+# sent_id = schachter-otanes-65-2
+# text = Mabuti ang panahon.
+# text_en = The weather is good.
+1   Mabuti        buti       ADJ      JJ     Degree=Pos                    0   root    _   _
+2   ang           ang        DET      DT     Definite=Def|PronType=Art     3   det     _   _
+3   panahon       panahon    NOUN     NN     Number=Sing|Case=Abs          1   nsubj   _   _
+4   .             .          PUNCT    .      _                             1   punct   _   _
+
+# sent_id = schachter-otanes-65-3
+# text = Matamis ang kendi.
+# text_en = The candy is sweet.
+1   Matamis       tamis      ADJ      JJ     Degree=Pos                    0   root    _   _
+2   ang           ang        DET      DT     Definite=Def|PronType=Art     3   det     _   _
+3   kendi         kendi      NOUN     NN     Number=Sing|Case=Abs          1   nsubj   _   _
+4   .             .          PUNCT    .      _                             1   punct   _   _
+
+# sent_id = schachter-otanes-65-4
+# text = Pagod ang bata.
+# text_en = The child is tired.
+1   Pagod         pagod      ADJ      JJ     Degree=Pos                    0   root    _   _
+2   ang           ang        DET      DT     Definite=Def|PronType=Art     3   det     _   _
+3   bata          bata      NOUN     NN     Number=Sing|Case=Abs           1   nsubj   _   _
+4   .             .          PUNCT    .      _                             1   punct   _   _
 
 # sent_id = devos-71-0
 # text = Nakita kita.
