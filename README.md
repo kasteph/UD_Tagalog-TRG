@@ -23,6 +23,11 @@ Schachter pp. 411. Enclitics are divided into four classes. TODO: DESCRIBE THESE
 
 Superlatives [JJS] - [Reduplication](http://www.seasite.niu.edu/Tagalog/Grammar%20Activities/Grammar%201/Adjectives/Adjectives-fs.htm)
 
+
+## Adpositions
+
+If an adposition is Oblique, it is marked with Case=Acc in the FEATS field and Oblique=Yes in the MISC field for explicitness.
+
 ## Verbs
 
 ### Empty Copula
