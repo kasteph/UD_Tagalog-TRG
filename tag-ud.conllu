@@ -20,7 +20,7 @@
 # text = Sinulat ko ang liham.
 # text_en = I wrote the letter.
 1   Sinulat     sulat       VERB    VBD     Mood=Ind|Aspect=Perf|VerbForm=Fin              0    root    _   Focus=Goal
-2   ko          ko          PRON    PRP     Number=Sing|Person=1|Case=Erg                  1    nsubj   _   _
+2   ko          ng          PRON    PRP     Number=Sing|Person=1|Case=Erg                  1    nsubj   _   _
 3   ang         ang         DET     DT      Definite=Def|PronType=Art|Case=Abs             4    det     _   _
 4   liham       liham       NOUN    NN      Number=Sing                                    1    obj     _   _
 5   .           .           PUNCT   .       _                                              1    punct   _   _
@@ -29,7 +29,7 @@
 # text = Sinulatan ko ang titser.
 # text_en = I wrote to the teacher.
 1   Sinulatan     sulat       VERB    VBD     Mood=Ind|Aspect=Perf|VerbForm=Fin              0    root    _   Focus=Ben
-2   ko            ko          PRON    PRP     Number=Sing|Person=1|Case=Erg                  1    nsubj   _   _
+2   ko            ng          PRON    PRP     Number=Sing|Person=1|Case=Erg                  1    nsubj   _   _
 3   ang           ang         DET     DT      Definite=Def|PronType=Art|Case=Abs             4    det     _   _
 4   titser        titser      NOUN    NN      Number=Sing                                    1    obj     _   _
 5   .             .           PUNCT   .       _                                              1    punct   _   _
@@ -70,19 +70,19 @@
 # sent_id = schachter-otanes-62-0
 # text = Artista ang yumaman.
 # text_en = The one who got rich is an actress.
-1   Artista     artista     NOUN    NN     Number=Sing                           3    nsubj   _   _
-2   ang         ang         DET     DT     Definite=Def|PronType=Art|Case=Abs    1    det     _   _
-3   yumaman     yaman       VERB    VBD    Mood=Ind|Aspect=Perf                  0    root    _   Focus=Actor
-4   .           .           PUNCT   .      _                                     3    punct   _   _
+1   Artista     artista     NOUN    NN     Number=Sing                           0    root     _   _
+2   ang         ang         DET     DT     Definite=Def|PronType=Art|Case=Abs    3    det      _   _
+3   yumaman     yaman       VERB    VBD    Mood=Ind|Aspect=Perf                  1    csubj    _   Focus=Actor
+4   .           .           PUNCT   .      _                                     1    punct    _   _
 
 # sent_id = schachter-otanes-62-1
 # text = Artista ang nagluto ng pagkain.
 # text_en = The one who cooked some food is an actress.
-1   Artista     artista     NOUN     NN     Number=Sing                                         3   nsubj   _   _
+1   Artista     artista     NOUN     NN     Number=Sing                                         3   obj     _   _
 2   ang         ang         ADP      _      Case=Abs                                            1   case    _   _
 3   nagluto     luto        VERB     VBD    Mood=Ind|Aspect=Perf|VerbForm=Fin                   0   root    _   Focus=Actor
 4   ng          ng          PART     NG     PartType=Mod|Case=Gen                               5   case    _   _
-5   pagkain     pagkain     NOUN     NN     Number=Coll                                         3   obj     _   _
+5   pagkain     pagkain     NOUN     NN     Number=Coll                                         3   nsubj   _   _
 6   .           .           PUNCT    .      _                                                   3   punct   _   _
 
 # sent_id = schachter-otanes-64-0
@@ -197,7 +197,7 @@
 # text = Para sa bata ang laruan.
 # text_en = The toy is for the child.
 1   Para    para    ADP     IN  _                                    2   fixed   _   _
-2   sa      sa      ADP     IN  Case=Acc                             3   case    _   Oblique=Yes
+2   sa      sa      ADP     IN  Case=Dat                             3   case    _   Oblique=Yes
 3   bata    bata    NOUN    NN  Number=Sing                          0   root    _   Oblique=Yes
 4   ang     ang     DET     DT  Definite=Def|PronType=Art|Case=Abs   5   det     _   _
 5   laruan  laruan  NOUN    NN  Number=Sing                          3   nsubj   _   _
@@ -207,15 +207,63 @@
 # text = Tungkol sa giyera ang kuwento.
 # text_en = The story is about the war.
 1   Tungkol     tungkol     ADP     IN   _                                    2   fixed   _   _
-2   sa          sa          ADP     IN   Case=Acc                             3   case    _   Oblique=Yes
+2   sa          sa          ADP     IN   Case=Dat                             3   case    _   Oblique=Yes
 3   giyera      giyera      NOUN    NN   Number=Sing                          0   root    _   Oblique=Yes
 4   ang         ang         DET     DT   Definite=Def|PronType=Art|Case=Abs   5   det     _   _
 5   kuwento     kuwento     NOUN    NN   Number=Sing                          3   nsubj   _   _
 6   .           .           PUNCT   .    _                                    3   punct   _   _
 
+# sent_id = schachter-otanes-65-8
+# text = May gulayan ang babae.
+# text_en = The woman has a vegetable garden.
+1   May         may         AUX     AUX    _                                     2   cop        _   _
+2   gulayan     gulayan     NOUN    NN     Number=Coll                           0   root       _   _
+3   ang         ang         DET     DT     Definite=Def|PronType=Art|Case=Abs    4   det        _   _
+4   babae       babae       NOUN    NN     Number=Sing                           2   nsubj      _   _
+5   .           .           PUNCT   .      _                                     2   punct      _   _
+
+# sent_id = schachter-otanes-65-9
+# text = Kailangan ko ang kuwalta.
+# text_en = I need the money.
+1   Kailangan   kailangan   VERB    VBP    Mood=Ind|VerbForm=Fin                   0    root    _   _
+2   ko          ko          PRON    PRP    Number=Sing|Person=1|Case=Erg           1    nsubj   _   _
+3   ang         ang         DET     DT     Definite=Def|PronType=Art|Case=Abs      4    det     _   _
+4   kuwalta     kuwalta     NOUN    NN     Number=Sing                             1    obj     _   _
+5   .           .           PUNCT   .      _                                       1    punct   _   _
+
+# sent_id = schachter-otanes-65-10
+# text = Sa istudyante ang libro.
+# text_en = The book belongs to the student.
+1   Sa          sa          ADP     IN     Case=Dat                                2    case    _   _
+2   istudyante  istudyante  NOUN    NN     Number=Sing                             0    root    _   _
+3   ang         ang         DET     DT     Definite=Def|PronType=Art|Case=Abs      4    det     _   _
+4   libro       libro       NOUN    NN     Number=Sing                             2    obj     _   _
+5   .           .           PUNCT   .      _                                       2    punct   _   _
+
+# sent_id = schachter-otanes-67-0
+# text = Nagluto ng pagkain ang nanay.
+# text_en = Mother cooked some food.
+1   Nagluto     luto        VERB     VBD    Mood=Ind|Aspect=Perf|VerbForm=Fin       0   root    _   Focus=Actor
+2   ng          ng          ADP      _      PartType=Poss|Case=Gen                  3   case    _   _
+3   pagkain     pagkain     NOUN     NN     Number=Col                              1   nsubj   _   _
+4   ang         ang         DET      DT     Definite=Def|PronType=Art|Case=Abs      5   det     _   _
+5   nanay       nanay       NOUN     NN     Number=Sing                             1   obj     _   _
+6   .           .           PUNCT    .      _                                       1   punct   _   _
+
+# sent_id = schachter-otanes-67
+# text = Nagluto na ng pagkain ang nanay.
+# text_en = Mother has cooked some food.
+1   Nagluto     luto        VERB     VBD    Mood=Ind|Aspect=Perf|VerbForm=Fin       0   root    _   Focus=Actor
+2   na          na          ADV      RB     _                                       1   advmod  _   Enclitic=1
+3   ng          ng          ADP      _      PartType=Poss|Case=Gen                  4   case    _   _
+4   pagkain     pagkain     NOUN     NN     Number=Col                              1   nsubj   _   _
+5   ang         ang         DET      DT     Definite=Def|PronType=Art|Case=Abs      6   det     _   _
+6   nanay       nanay       NOUN     NN     Number=Sing                             1   obj     _   _
+7   .           .           PUNCT    .      _                                       1   punct   _   _
+
 # sent_id = devos-71-0
 # text = Nakita kita.
 # text_en = I saw you.
 1   Nakita  kita       VBD     VBD     Mood=Ind|Aspect=Perf|VerbForm=Fin                      0   root    _     Focus=Goal
-2   kita    ang        PRON    PRP     Number=Sing|Person=Dual|Case=Abs                       1   obj     _     _
+2   kita    ang        PRON    PRP     Number=Sing|Number=Dual|Case=Abs                       1   obj     _     _
 3   .       .          PUNCT   .       _                                                      1   punct   _     _
