@@ -225,7 +225,7 @@
 # sent_id = schachter-otanes-65-9
 # text = Kailangan ko ang kuwalta.
 # text_en = I need the money.
-1   Kailangan   kailangan   VERB    VBP    Mood=Ind|VerbForm=Fin                   0    root    _   _
+1   Kailangan   kailangan   VERB    VBP    Mood=Ind|VerbForm=Fin|Aspect=Hab        0    root    _   _
 2   ko          ko          PRON    PRP    Number=Sing|Person=1|Case=Erg           1    nsubj   _   _
 3   ang         ang         DET     DT     Definite=Def|PronType=Art|Case=Abs      4    det     _   _
 4   kuwalta     kuwalta     NOUN    NN     Number=Sing                             1    obj     _   _
@@ -250,7 +250,7 @@
 5   nanay       nanay       NOUN     NN     Number=Sing                             1   obj     _   _
 6   .           .           PUNCT    .      _                                       1   punct   _   _
 
-# sent_id = schachter-otanes-67
+# sent_id = schachter-otanes-67-1
 # text = Nagluto na ng pagkain ang nanay.
 # text_en = Mother has cooked some food.
 1   Nagluto     luto        VERB     VBD    Mood=Ind|Aspect=Perf|VerbForm=Fin       0   root    _   Focus=Actor
@@ -260,6 +260,19 @@
 5   ang         ang         DET      DT     Definite=Def|PronType=Art|Case=Abs      6   det     _   _
 6   nanay       nanay       NOUN     NN     Number=Sing                             1   obj     _   _
 7   .           .           PUNCT    .      _                                       1   punct   _   _
+
+# sent_id = schachter-otanes-67-3
+# text = Nagluluto ng pagkain ang nanay araw-araw.
+# text_en = Mother is cooking some food everyday.
+1   Nagluluto   luto        VERB     VBD    Mood=Ind|Aspect=Perf|VerbForm=Fin       0   root            _   Focus=Actor
+2   ng          ng          ADP      _      PartType=Poss|Case=Gen                  3   case            _   _
+3   pagkain     pagkain     NOUN     NN     Number=Col                              1   nsubj           _   _
+4   ang         ang         DET      DT     Definite=Def|PronType=Art|Case=Abs      5   det             _   _
+5   nanay       nanay       NOUN     NN     Number=Sing                             1   obj             _   _
+6   araw        araw        ADV      _      _                                       1   advmod          _   _
+7   -           -           PUNCT    _      _                                       6   punct           _   _
+8   araw        araw        NOUN     _      Number=Plur|Echo=Rdp                    6   compound:plur   _   _
+9  .           .           PUNCT    .      _                                        1   punct           _   _
 
 # sent_id = devos-71-0
 # text = Nakita kita.
