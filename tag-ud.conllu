@@ -3,7 +3,7 @@
 # text_en = The child awoke.
 1   Gumising    gising      VERB    VBD     Aspect=Perf|Mood=Ind                           0   root     _   Focus=Act
 2   ang         ang         DET     DT      Case=Abs|Definite=Def|PronType=Art             3   det      _   _
-3   bata        bata        NOUN    NN      Number=Sing                                    1   nsubj    _   _
+3   bata        bata        NOUN    NN      Number=Sing                                    1   nsubj    _   SpaceAfter=No
 4   .           .           PUNCT   .       _                                              1   punct    _   _
 
 # sent_id = schachter-otanes-60-1
@@ -13,7 +13,7 @@
 2   ng          ng          ADP     _       Case=Gen|PartType=Poss                         3   case     _   _
 3   ingay       ingay       NOUN    NN      Number=Coll                                    1   nsubj    _   _
 4   ang         ang         DET     DT      Case=Abs|Definite=Def|PronType=Art                5   det      _   _
-5   bata        bata        NOUN    NN      Number=Sing                                    1   obj      _   _
+5   bata        bata        NOUN    NN      Number=Sing                                    1   obj      _   SpaceAfter=No
 6   .           .           PUNCT   .       _                                              1   punct    _   _
 
 # sent_id = schachter-otanes-60-2
@@ -22,7 +22,7 @@
 1   Sinulat     sulat       VERB    VBD     Aspect=Perf|Mood=Ind                           0    root    _   Focus=Obj
 2   ko          ng          PRON    PRP     Case=Erg|Number=Sing|Person=1                 1    nsubj   _   _
 3   ang         ang         DET     DT      Case=Abs|Definite=Def|PronType=Art             4    det     _   _
-4   liham       liham       NOUN    NN      Number=Sing                                    1    obj     _   _
+4   liham       liham       NOUN    NN      Number=Sing                                    1    obj     _   SpaceAfter=No
 5   .           .           PUNCT   .       _                                              1    punct   _   _
 
 # sent_id = schachter-otanes-60-3
@@ -31,7 +31,7 @@
 1   Sinulatan     sulat       VERB    VBD     Aspect=Perf|Mood=Ind                           0    root    _   Focus=Obj
 2   ko            ng          PRON    PRP     Case=Erg|Number=Sing|Person=1                  1    nsubj   _   _
 3   ang           ang         DET     DT      Case=Abs|Definite=Def|PronType=Art             4    det     _   _
-4   titser        titser      NOUN    NN      Number=Sing                                    1    obj     _   _
+4   titser        titser      NOUN    NN      Number=Sing                                    1    obj     _   SpaceAfter=No
 5   .             .           PUNCT   .       _                                              1    punct   _   _
 
 # sent_id = schachter-otanes-61-2
@@ -40,7 +40,7 @@
 1   Dumarating      dating     VERB    VBG    Aspect=Imp|Mood=Ind                           0    root    _   Focus=Act
 2   na              na         ADV     RP     _                                              1    advmod  _   Enclitic=1
 3   ang             ang        DET     DT     Definite=Def|PronType=Art                      4    det     _   _
-4   bus             bus        NOUN    NN     Foreign=Yes|Number=Sing                        1    nsubj   _   _
+4   bus             bus        NOUN    NN     Foreign=Yes|Number=Sing                        1    nsubj   _   SpaceAfter=No
 5   .               .          PUNCT   .      _                                              1    punct   _   _
 
 # sent_id = schachter-otanes-61-3
@@ -48,7 +48,7 @@
 # text_en = The woman is an actress.
 1   Artista     artista     NOUN    NN     Number=Sing                           0    nmod    _   _                   
 2   ang         ang         DET     DT     Case=Abs|Definite=Def|PronType=Art    3    root    _   _
-3   babae       babae       NOUN    NN     Number=Sing                           1    nsubj   _   _
+3   babae       babae       NOUN    NN     Number=Sing                           1    nsubj   _   SpaceAfter=No
 4   .           .           PUNCT   .      _                                     1    punct   _   _
 
 # sent_id = schachter-otanes-61-4
@@ -56,7 +56,7 @@
 # text_en = The woman is beautiful.
 1   Maganda     ganda       ADJ     JJ     Degree=Pos                            0    amod    _   _
 2   ang         ang         DET     DT     Case=Abs|Definite=Def|PronType=Art    3    root    _   _
-3   babae       babae       NOUN    NN     Number=Sing                           1    nsubj   _   _
+3   babae       babae       NOUN    NN     Number=Sing                           1    nsubj   _   SpaceAfter=No
 4   .           .           PUNCT   .      _                                     1    punct   _   _
 
 # sent_id = schachter-otanes-61-4
@@ -64,7 +64,7 @@
 # text_en = The woman got rich.
 1   Yumaman     yaman       VERB    VBD    Aspect=Perf|Mood=Ind                  0    root    _   Focus=Act
 2   ang         ang         DET     DT     Case=Abs|Definite=Def|PronType=Art    3    det     _   _
-3   babae       babae       NOUN    NN     Number=Sing                           1    nsubj   _   _
+3   babae       babae       NOUN    NN     Number=Sing                           1    nsubj   _   SpaceAfter=No
 4   .           .           PUNCT   .      _                                     1    punct   _   _
 
 # sent_id = schachter-otanes-62-0
@@ -72,7 +72,7 @@
 # text_en = The one who got rich is an actress.
 1   Artista     artista     NOUN    NN     Number=Sing                           0    root     _   _
 2   ang         ang         DET     DT     Case=Abs|Definite=Def|PronType=Art    3    det      _   _
-3   yumaman     yaman       VERB    VBD    Aspect=Perf|Mood=Ind                  1    csubj    _   Focus=Act
+3   yumaman     yaman       VERB    VBD    Aspect=Perf|Mood=Ind                  1    csubj    _   Focus=Act|SpaceAfter=No
 4   .           .           PUNCT   .      _                                     1    punct    _   _
 
 # sent_id = schachter-otanes-62-1
@@ -82,7 +82,7 @@
 2   ang         ang         ADP      _      Case=Abs                                            1   case    _   _
 3   nagluto     luto        VERB     VBD    Aspect=Perf|Mood=Ind                                0   root    _   Focus=Act
 4   ng          ng          PART     NG     PartType=Mod|Case=Gen                               5   case    _   _
-5   pagkain     pagkain     NOUN     NN     Number=Coll                                         3   nsubj   _   _
+5   pagkain     pagkain     NOUN     NN     Number=Coll                                         3   nsubj   _   SpaceAfter=No
 6   .           .           PUNCT    .      _                                                   3   punct   _   _
 
 # sent_id = schachter-otanes-64-0
@@ -90,7 +90,7 @@
 # text_en = He's the American.
 1   Siya        ang         PRON    PRP     Case=Abs|Number=Sing|Person=3|PronType=Prs      0   root    _   _
 2   ang         ang         DET     DT      Case=Abs|Definite=Def|PronType=Art              3   det     _   _
-3   Amerikano   amerikano   NOUN    NN      Number=Sing                                     1   obj     _   _
+3   Amerikano   amerikano   NOUN    NN      Number=Sing                                     1   obj     _   SpaceAfter=No
 4   .           .           PUNCT   .       _                                               1   punct   _   _
 
 # sent_id = schachter-otanes-64-1
@@ -98,24 +98,24 @@
 # text_en = That's the house.
 1   Iyan    ang        PRON       DT    Number=Sing|PronType=Dem   0   root    _   _                    
 2   ang     ang        DET        DT    Definite=Def|PronType=Art  3   det     _   _
-3   bahay   bahay      NOUN       NN    Number=Sing                1   obj     _   _
+3   bahay   bahay      NOUN       NN    Number=Sing                1   obj     _   SpaceAfter=No
 4   .       .          PUNCT      .     _                          1   punct   _   _
 
 # sent_id = schachter-otanes-64-2
 # text = Si Juan ang bunso.
 # text_en = Juan's the youngest child.
-1  Si       ang     DET         DT      Case=Abs|Number=Sing|PronType=Art       2   det     _   _
-2  Juan     Juan    PROPN       NNP     Number=Sing                             4   nsubj   _   _
+1  Si       ang     DET         DT      Case=Abs|Number=Sing|PronType=Art       1   det     _   _
+2  Juan     Juan    PROPN       NNP     Number=Sing                             0   nsubj   _   _
 3  ang      ang     DET         DT      Definite=Def|PronType=Art               4   det     _   _
-4  bunso    bunso   NOUN        NN      _                                       0   root    _   _
-5  .        .       PUNCT       .       _                                       4   punct   _   _
+4  bunso    bunso   NOUN        NN      _                                       2   root    _   SpaceAfter=No
+5  .        .       PUNCT       .       _                                       2   punct   _   _
 
 # sent_id = schachter-otanes-64-3
 # text = Isda ang bakalaw.
 # text_en = The cod is a fish.
 1   Isda        isda       NOUN     NN    Number=Sing                            0   root    _   _
 2   ang         ang        DET      DT    Case=Abs|Definite=Def|PronType=Art     3   det     _   _
-3   bakalaw     bakalaw    NOUN     NN    Number=Sing                            1   nsubj   _   _
+3   bakalaw     bakalaw    NOUN     NN    Number=Sing                            1   nsubj   _   SpaceAfter=No
 4   .           .          PUNCT    .     _                                      1   punct   _   _
 
 # sent_id = schachter-otanes-64-4
@@ -124,7 +124,7 @@
 1   Isda        isda      NOUN      NN    Number=Sing                            0   root           _   _
 2   ang         ang       DET       DT    Case=Abs|Definite=Ind|PronType=Art     3   det            _   _
 3   pagkain     pagkain   NOUN      NN    Number=Sing                            1   nsubj          _   _
-4   niya        ng        PRON      PRP   Case=Gen                               3   nmod:poss      _   _
+4   niya        ng        PRON      PRP   Case=Gen                               3   nmod:poss      _   SpaceAfter=No
 5   .           .         PUNCT     .     _                                      1   punct          _   _
 
 # sent_id = schachter-otanes-64-5
@@ -133,7 +133,7 @@
 1   Isda        isda      NOUN      NN    Number=Sing                            0   root      _   _
 2   ang         ang       DET       DT    Case=Abs|Definite=Def|PronType=Art     3   det       _   _
 3   paborito    paborito  NOUN      NN    Number=Sing                            4   nsubj     _   _
-4   niya        ng        PRON      PRP   Case=Gen                               1   case      _   _
+4   niya        ng        PRON      PRP   Case=Gen                               1   case      _   SpaceAfter=No
 5   .           .         PUNCT     .     _                                      1   punct     _   _
 
 # sent_id = schachter-otanes-64-6
@@ -141,7 +141,7 @@
 # text_en = The house is stone.
 1   Bato        bato       NOUN     NN    Number=Sing                            0   root    _   _
 2   ang         ang        DET      DT    Case=Abs|Definite=Def|PronType=Art     3   det     _   _
-3   bahay       bahay      NOUN     NN    Number=Sing                            1   nsubj   _   _
+3   bahay       bahay      NOUN     NN    Number=Sing                            1   nsubj   _   SpaceAfter=No
 4   .           .          PUNCT    .     _                                      1   punct   _   _
 
 # sent_id = schachter-otanes-64-7
@@ -149,7 +149,7 @@
 # text_en = The house is new.
 1   Bago        bago       ADJ      JJ    Degree=Pos                             0   root    _   _
 2   ang         ang        DET      DT    Case=Abs|Definite=Def|PronType=Art     3   det     _   _
-3   bahay       bahay      NOUN     NN    Number=Sing                            1   nsubj   _   _
+3   bahay       bahay      NOUN     NN    Number=Sing                            1   nsubj   _   SpaceAfter=No
 4   .           .          PUNCT    .     _                                      1   punct   _   _
 
 # sent_id = schachter-otanes-65-0
@@ -159,7 +159,7 @@
 2   -             -          PUNCT    _      _                             1   punct   _   _
 3   bago          bago       ADJ      JJS    Degree=Sup|Echo=Rdp                      1   compound:redup _ _
 4   ang           ang        DET      DT     Case=Abs|Definite=Def|PronType=Art     5   det     _   _
-5   bahay         bahay      NOUN     NN     Number=Sing                   1   nsubj   _   _
+5   bahay         bahay      NOUN     NN     Number=Sing                   1   nsubj   _   SpaceAfter=No
 6   .             .          PUNCT    .      _                             1   punct   _   _
 
 # sent_id = schachter-otanes-65-2
@@ -167,7 +167,7 @@
 # text_en = The weather is good.
 1   Mabuti        buti       ADJ      JJ     Degree=Pos                    0   root    _   _
 2   ang           ang        DET      DT     Definite=Def|PronType=Art     3   det     _   _
-3   panahon       panahon    NOUN     NN     Number=Sing                   1   nsubj   _   _
+3   panahon       panahon    NOUN     NN     Number=Sing                   1   nsubj   _   SpaceAfter=No
 4   .             .          PUNCT    .      _                             1   punct   _   _
 
 # sent_id = schachter-otanes-65-3
@@ -175,7 +175,7 @@
 # text_en = The candy is sweet.
 1   Matamis       tamis      ADJ      JJ     Degree=Pos                    0   root    _   _
 2   ang           ang        DET      DT     Definite=Def|PronType=Art     3   det     _   _
-3   kendi         kendi      NOUN     NN     Number=Sing                   1   nsubj   _   _
+3   kendi         kendi      NOUN     NN     Number=Sing                   1   nsubj   _   SpaceAfter=No
 4   .             .          PUNCT    .      _                             1   punct   _   _
 
 # sent_id = schachter-otanes-65-4
@@ -183,7 +183,7 @@
 # text_en = The child is tired.
 1   Pagod         pagod      ADJ      JJ     Degree=Pos                    0   root    _   _
 2   ang           ang        DET      DT     Definite=Def|PronType=Art     3   det     _   _
-3   bata          bata       NOUN     NN     Number=Sing                   1   nsubj   _   _
+3   bata          bata       NOUN     NN     Number=Sing                   1   nsubj   _   SpaceAfter=No
 4   .             .          PUNCT    .      _                             1   punct   _   _
 
 # sent_id = schachter-otanes-65-5
@@ -192,7 +192,7 @@
 1   Nasa        nasa         ADP      IN     Case=Loc                               2   case    _   _
 2   kusina      kusina       NOUN     NN     Number=Sing                            0   root    _   _
 3   ang         ang          DET      DT     Case=Abs|Definite=Def|PronType=Art     4   det     _   _
-4   mesa        mesa         NOUN     NN     Number=Sing                            2   nsubj   _   _
+4   mesa        mesa         NOUN     NN     Number=Sing                            2   nsubj   _   SpaceAfter=No
 5   .           .            PUNCT    .      _                                      2   punct   _   _
 
 # sent_id = schachter-otanes-65-6
@@ -202,7 +202,7 @@
 2   sa      sa      ADP     IN  Case=Dat                             3   case    _   Oblique=Yes
 3   bata    bata    NOUN    NN  Number=Sing                          0   root    _   Oblique=Yes
 4   ang     ang     DET     DT  Case=Abs|Definite=Def|PronType=Art   5   det     _   _
-5   laruan  laruan  NOUN    NN  Number=Sing                          3   nsubj   _   _
+5   laruan  laruan  NOUN    NN  Number=Sing                          3   nsubj   _   SpaceAfter=No
 6   .       .       PUNCT   .   _                                    3   punct   _   _
 
 # sent_id = schachter-otanes-65-7
@@ -212,7 +212,7 @@
 2   sa          sa          ADP     IN   Case=Dat                             3   case    _   Oblique=Yes
 3   giyera      giyera      NOUN    NN   Number=Sing                          0   root    _   Oblique=Yes
 4   ang         ang         DET     DT   Case=Abs|Definite=Def|PronType=Art   5   det     _   _
-5   kuwento     kuwento     NOUN    NN   Number=Sing                          3   nsubj   _   _
+5   kuwento     kuwento     NOUN    NN   Number=Sing                          3   nsubj   _   SpaceAfter=No
 6   .           .           PUNCT   .    _                                    3   punct   _   _
 
 # sent_id = schachter-otanes-65-8
@@ -221,7 +221,7 @@
 1   May         may         AUX     AUX    _                                     2   cop        _   _
 2   gulayan     gulayan     NOUN    NN     Number=Coll                           0   root       _   _
 3   ang         ang         DET     DT     Case=Abs|Definite=Def|PronType=Art    4   det        _   _
-4   babae       babae       NOUN    NN     Number=Sing                           2   nsubj      _   _
+4   babae       babae       NOUN    NN     Number=Sing                           2   nsubj      _   SpaceAfter=No
 5   .           .           PUNCT   .      _                                     2   punct      _   _
 
 # sent_id = schachter-otanes-65-9
@@ -230,7 +230,7 @@
 1   Kailangan   kailangan   VERB    VBP    Mood=Ind|VerbForm=Inf|Aspect=Hab        0    root    _   _
 2   ko          ko          PRON    PRP    Number=Sing|Person=1|Case=Erg           1    nsubj   _   _
 3   ang         ang         DET     DT     Case=Abs|Definite=Def|PronType=Art      4    det     _   _
-4   kuwalta     kuwalta     NOUN    NN     Number=Sing                             1    obj     _   _
+4   kuwalta     kuwalta     NOUN    NN     Number=Sing                             1    obj     _   SpaceAfter=No
 5   .           .           PUNCT   .      _                                       1    punct   _   _
 
 # sent_id = schachter-otanes-65-10
@@ -239,7 +239,7 @@
 1   Sa          sa          ADP     IN     Case=Dat                                2    case    _   _
 2   istudyante  istudyante  NOUN    NN     Number=Sing                             0    root    _   _
 3   ang         ang         DET     DT     Case=Abs|Definite=Def|PronType=Art      4    det     _   _
-4   libro       libro       NOUN    NN     Number=Sing                             2    obj     _   _
+4   libro       libro       NOUN    NN     Number=Sing                             2    obj     _   SpaceAfter=No
 5   .           .           PUNCT   .      _                                       2    punct   _   _
 
 # sent_id = schachter-otanes-67-0
@@ -249,7 +249,7 @@
 2   ng          ng          ADP      _      Case=Gen|PartType=Poss                  3   case    _   _
 3   pagkain     pagkain     NOUN     NN     Number=Col                              1   nsubj   _   _
 4   ang         ang         DET      DT     Case=Abs|Definite=Def|PronType=Art      5   det     _   _
-5   nanay       nanay       NOUN     NN     Number=Sing                             1   obj     _   _
+5   nanay       nanay       NOUN     NN     Number=Sing                             1   obj     _   SpaceAfter=No
 6   .           .           PUNCT    .      _                                       1   punct   _   _
 
 # sent_id = schachter-otanes-67-1
@@ -260,7 +260,7 @@
 3   ng          ng          ADP      _      Case=Gen|PartType=Poss                  4   case    _   _
 4   pagkain     pagkain     NOUN     NN     Number=Col                              1   nsubj   _   _
 5   ang         ang         DET      DT     Case=Abs|Definite=Def|PronType=Art      6   det     _   _
-6   nanay       nanay       NOUN     NN     Number=Sing                             1   obj     _   _
+6   nanay       nanay       NOUN     NN     Number=Sing                             1   obj     _   SpaceAfter=No
 7   .           .           PUNCT    .      _                                       1   punct   _   _
 
 # sent_id = schachter-otanes-67-2
@@ -274,7 +274,7 @@
 6   nanay       nanay       NOUN     NN     Number=Sing                             1   obj     _   _
 7   noong       nang        SCONJ    _      _                                       8   mark    _   _
 8   dumating    dating      VERB     VBD    Aspect=Perf|Mood=Ind                    1   advcl   _   Focus=Act
-9   ako         ang         PRON     PRP    Number=Sing|Person=1|Case=Abs           8   nsubj   _   _
+9   ako         ang         PRON     PRP    Number=Sing|Person=1|Case=Abs           8   nsubj   _   SpaceAfter=No
 10  .           .           PUNCT    .      _                                       1   punct   _   _
 
 # sent_id = schachter-otanes-67-3
@@ -287,7 +287,7 @@
 5   nanay       nanay       NOUN     NN     Number=Sing                             1   obj             _   _
 6   araw        araw        ADV      _      _                                       1   advmod          _   _
 7   -           -           PUNCT    _      _                                       6   punct           _   _
-8   araw        araw        NOUN     _      Number=Plur|Echo=Rdp                    6   compound:redup  _   _
+8   araw        araw        NOUN     _      Number=Plur|Echo=Rdp                    6   compound:redup  _   SpaceAfter=No
 9   .            .          PUNCT    .      _                                       1   punct           _   _
 
 # sent_id = schachter-otanes-67-4
@@ -298,7 +298,7 @@
 3   ng          ng          ADP      _      Case=Gen|PartType=Poss                  4   case    _   _
 4   pagkain     pagkain     NOUN     NN     Number=Col                              1   nsubj   _   _
 5   ang         ang         DET      DT     Case=Abs|Definite=Def|PronType=Art      6   det     _   _
-6   nanay       nanay       NOUN     NN     Number=Sing                             1   obj     _   _
+6   nanay       nanay       NOUN     NN     Number=Sing                             1   obj     _   SpaceAfter=No
 7   .           .           PUNCT    .      _                                       1   punct   _   _
 
 # sent_id = schachter-otanes-67-5
@@ -311,7 +311,7 @@
 5   nanay       nanay       NOUN     NN     Number=Sing                             1   obj     _   _
 6   noong       nang        SCONJ    _      _                                       7   mark    _   _
 7   dumating    dating      VERB     VBD    Aspect=Perf|Mood=Ind                    1   advcl   _   Focus=Act
-8   ako         ang         PRON     PRP    Number=Sing|Person=1|Case=Abs           7   nsubj   _   _
+8   ako         ang         PRON     PRP    Number=Sing|Person=1|Case=Abs           7   nsubj   _   SpaceAfter=No
 9   .           .           PUNCT    .      _                                       1   punct   _   _
 
 # sent_id = schachter-otanes-67-6
@@ -322,7 +322,7 @@
 3   pagkain     pagkain     NOUN     NN     Number=Col                              1   nsubj   _   _
 4   ang         ang         DET      DT     Case=Abs|Definite=Def|PronType=Art      5   det     _   _
 5   nanay       nanay       NOUN     NN     Number=Sing                             1   obj     _   _
-6   bukas       bukas       ADV      RB     _                                       1   advmod  _   _
+6   bukas       bukas       ADV      RB     _                                       1   advmod  _   SpaceAfter=No
 7   .           .           PUNCT    .      _                                       1   punct   _   _
 
 # sent_id = schachter-otanes-67-7
@@ -334,7 +334,7 @@
 4   ng          ng          ADP      _      Case=Gen|PartType=Poss                  5   case            _   _
 5   pagkain     pagkain     NOUN     NN     Number=Col                              3   nsubj           _   _
 6   ang         ang         DET      DT     Case=Abs|Definite=Def|PronType=Art      7   det             _   _
-7   nanay       nanay       NOUN     NN     Number=Sing                             3   obj             _   _
+7   nanay       nanay       NOUN     NN     Number=Sing                             3   obj             _   SpaceAfter=No
 8   .           .           PUNCT    .      _                                       3   punct           _   _
 
 # sent_id = schachter-otanes-69-0
@@ -344,7 +344,7 @@
 2   ng          ng          ADP      _      Case=Gen  3   case    _   _
 3   diyaryo     diyaryo     NOUN     NN     Number=Sing             1   nsubj   _   _
 4   ang         ang         DET      DT     Case=Abs|Definite=Def|PronType=Art      5   det     _   _
-5   titser      titser      NOUN     NN     Number=Sing                             1   obj     _   _
+5   titser      titser      NOUN     NN     Number=Sing                             1   obj     _   SpaceAfter=No
 6   .           .           PUNCT    .      _                                       1   punct   _   _
 
 # sent_id = schachter-otanes-69-1
@@ -354,7 +354,7 @@
 2   ng          ng          ADP      _      Case=Gen  3   case    _   _
 3   diyaryo     diyaryo     NOUN     NN     Number=Sing             1   nsubj   _   _
 4   ang         ang         DET      DT     Case=Abs|Definite=Def|PronType=Art      5   det     _   _
-5   titser      titser      NOUN     NN     Number=Sing                             1   obj     _   _
+5   titser      titser      NOUN     NN     Number=Sing                             1   obj     _   SpaceAfter=No
 6   .           .           PUNCT    .      _                                       1   punct   _   _
 
 # sent_id = schachter-otanes-69-2
@@ -362,7 +362,7 @@
 # text_en = Grandfather is snoring.
 1   Naghihilik  hilik      VERB    VBG      Aspect=Imp|Mood=Ind                           0   root     _   Focus=Act
 2   ang         ang         DET     DT      Case=Abs|Definite=Def|PronType=Art             3   det      _   _
-3   lolo        lolo        NOUN    NN      Number=Sing                                    1   nsubj    _   _
+3   lolo        lolo        NOUN    NN      Number=Sing                                    1   nsubj    _   SpaceAfter=No
 4   .           .           PUNCT   .       _                                              1   punct    _   _
 
 # sent_id = schachter-otanes-69-3
@@ -371,7 +371,7 @@
 1   Humihinga  hinga       VERB    VBG      Aspect=Imp|Mood=Ind                           0   root     _   Focus=Act
 2   pa          pa          ADV      RP     _                                       1  advmod          _   _
 3   ang         ang         DET     DT      Case=Abs|Definite=Def|PronType=Art             4   det      _   _
-4   pasyente        pasyente        NOUN    NN      Number=Sing                                    1   nsubj    _   _
+4   pasyente        pasyente        NOUN    NN      Number=Sing                                    1   nsubj    _   SpaceAfter=No
 5   .           .           PUNCT   .       _                                              1   punct    _   _
 
 # sent_id = schachter-otanes-70-0
@@ -379,7 +379,7 @@
 # text_en = The baby is getting thirsty.
 1   Nauuhaw  uhaw      VERB    VBG      Aspect=Imp|Mood=Ind                           0   root     _   Focus=Act
 2   ang         ang         DET     DT      Case=Abs|Definite=Def|PronType=Art             3   det      _   _
-3   sanggol        sanggol        NOUN    NN      Number=Sing                                    1   nsubj    _   _
+3   sanggol        sanggol        NOUN    NN      Number=Sing                                    1   nsubj    _   SpaceAfter=No
 4   .           .           PUNCT   .       _                                              1   punct    _   _
 
 # sent_id = schachter-otanes-70-1
@@ -387,7 +387,7 @@
 # text_en = The dog is growing old.
 1   Tumatanda  magtanda      VERB    VBG      Aspect=Imp|Mood=Ind                           0   root     _   Focus=Act
 2   ang         ang         DET     DT      Case=Abs|Definite=Def|PronType=Art             3   det      _   _
-3   aso        aso        NOUN    NN      Number=Sing                                    1   nsubj    _   _
+3   aso        aso        NOUN    NN      Number=Sing                                    1   nsubj    _   SpaceAfter=No
 4   .           .           PUNCT   .       _                                              1   punct    _   _
 
 # sent_id = schachter-otanes-70-2
@@ -399,7 +399,7 @@
 4   sa        sa            ADP     IN      Case=Dat                                5   case    _   Oblique=Yes
 5   istudyante  istudyante  NOUN    NN      Number=Sing                             1    iobj    _   _
 6   ang         ang         DET     DT      Case=Abs|Definite=Def|PronType=Art      7   det      _   _
-7   premyo      premyo      NOUN    NN      Number=Sing                             1  obj _ _
+7   premyo      premyo      NOUN    NN      Number=Sing                             1  obj _ SpaceAfter=No
 8   .           .           PUNCT   .       _                                       1   punct    _   _
 
 # sent_id = schachter-otanes-70-3
@@ -411,7 +411,7 @@
 4   ng        ng            ADP     _       Case=Gen|PartType=Poss                  3   case            _   _
 5   premyo      premyo      NOUN    NN      Number=Sing                             1  iobj _ _
 6   ang         ang         DET     DT      Case=Abs|Definite=Def|PronType=Art      7   det      _   _
-7   istudyante  istudyante  NOUN    NN      Number=Sing                             1    obj    _   _
+7   istudyante  istudyante  NOUN    NN      Number=Sing                             1    obj    _   SpaceAfter=No
 8   .           .           PUNCT   .       _                                       1   punct    _   _
 
 # sent_id = schachter-otanes-70-4
@@ -421,7 +421,7 @@
 2   ng              ng              ADP     _       Case=Gen|PartType=Poss                  3   case            _   _
 3   mangingisda     mangingisda     NOUN    NN      Number=Sing                             1   nsubj   _   _
 4   ang         ang         DET     DT      Case=Abs|Definite=Def|PronType=Art             5   det      _   _
-5   bangka  bangka  NOUN    NN  Number=Sing 1   obj _   _
+5   bangka  bangka  NOUN    NN  Number=Sing 1   obj _   SpaceAfter=No
 6   .           .           PUNCT   .       _                                              1   punct    _   _
 
 # sent_id = schachter-otanes-70-5
@@ -431,7 +431,7 @@
 2   ng              ng              ADP     _       Case=Gen|PartType=Poss                  3   case            _   _
 3   alon     alon     NOUN    NN      Number=Coll                             1   nsubj   _   _
 4   ang         ang         DET     DT      Case=Abs|Definite=Def|PronType=Art             5   det      _   _
-5   bangka  bangka  NOUN    NN  Number=Sing 1   obj _   _
+5   bangka  bangka  NOUN    NN  Number=Sing 1   obj _   SpaceAfter=No
 6   .           .           PUNCT   .       _                                              1   punct    _   _
 
 # sent_id = schachter-otanes-70-6
@@ -441,7 +441,7 @@
 2   ng              ng              ADP     _       Case=Gen|PartType=Poss                  3   case            _   _
 3   bangka     bangka    NOUN    NN      Number=Sing                             1   nsubj   _   _
 4   ang         ang         DET     DT      Case=Abs|Definite=Def|PronType=Art             5   det      _   _
-5   mangingisda  mangingisda  NOUN    NN  Number=Sing 1   obj _   _
+5   mangingisda  mangingisda  NOUN    NN  Number=Sing 1   obj _   SpaceAfter=No
 6   .           .           PUNCT   .       _                                              1   punct    _   _
 
 # sent_id = schachter-otanes-70-7
@@ -451,7 +451,7 @@
 2   sa          sa          ADP     IN   Case=Dat                             3   case    _   Oblique=Yes
 3   bangka     bangka    NOUN    NN      Number=Sing                             1   nsubj   _   _
 4   ang         ang         DET     DT      Case=Abs|Definite=Def|PronType=Art             5   det      _   _
-5   alon     alon     NOUN    NN      Number=Coll                             1   obj   _   _
+5   alon     alon     NOUN    NN      Number=Coll                             1   obj   _   SpaceAfter=No
 6   .           .           PUNCT   .       _                                              1   punct    _   _
 
 # sent_id = schachter-otanes-71-0
@@ -460,7 +460,7 @@
 1   Binalikan   balik   VERB    VBP     Aspect=Perf|Mood=Ind                    0   root _ Focus=Loc
 2   niya        ng      PRON    PRP   Case=Erg                              1   nsubj      _   _
 3   ang         ang         DET     DT      Case=Abs|Definite=Def|PronType=Art             4   det      _   _
-4   Maynila     Maynila     PROPN   NNP     _                           1   obj _   _
+4   Maynila     Maynila     PROPN   NNP     _                           1   obj _   SpaceAfter=No
 5   .           .           PUNCT   .       _                                              1   punct    _   _
 
 # sent_id = schachter-otanes-71-1
@@ -469,12 +469,35 @@
 1   Tinakasan   takas   VERB    VBP     Aspect=Perf|Mood=Ind                    0   root _ Focus=Loc
 2   niya        ng      PRON    PRP   Case=Erg                              1   nsubj      _   _
 3   ang         ang         DET     DT      Case=Abs|Definite=Def|PronType=Art             4   det      _   _
-4   bilangguan     bilangguan     NOUN   NN   Number=Sing                           1   obj _   _
+4   bilangguan     bilangguan     NOUN   NN   Number=Sing                           1   obj _   SpaceAfter=No
 5   .           .           PUNCT   .       _                                              1   punct    _   _
+
+# sent_id = schachter-otanes-95-10
+# text = Mansanas ito.
+# text_en = This is an apple.
+1   Mansanas    mansanas   NOUN NN  _   0   root    _   _
+2   ito ang PRON       DT    Number=Sing|PronType=Dem   1   det    _   SpaceAfter=No                    
+3   .           .           PUNCT   .       _                                              1   punct    _   _
+
+# sent_id = schachter-otanes-97-0
+# text = Biyudo ang maestro.
+# text_en = The teacher is a widower.
+1   Biyudo biyudo   NOUN    NN  Gender=Masc   0   root _  _
+2   ang         ang         DET     DT      Case=Abs|Definite=Def|PronType=Art             3   det      _   _
+3   maestro maestro NOUN    NN  Gender=Masc 1   nsubj _ _
+4   .           .          PUNCT    .     _                                      1   punct   _   _
+
+# sent_id = schachter-otanes-97-0
+# text = Biyuda ang maestro.
+# text_en = The teacher is a widow.
+1   Biyuda biyuda   NOUN    NN  Gender=Fem   0   root _  _
+2   ang         ang         DET     DT      Case=Abs|Definite=Def|PronType=Art             3   det      _   _
+3   maestra maestra NOUN    NN  Gender=Fem 1   nsubj _ _
+4   .           .          PUNCT    .     _                                      1   punct   _   _
 
 # sent_id = devos-71-0
 # text = Nakita kita.
 # text_en = I saw you.
 1   Nakita  kita       VERB     VBD     Aspect=Perf|Mood=Ind                                   0   root    _     Focus=Obj
-2   kita    ang        PRON    PRP     Number=Sing|Number=Dual|Case=Abs                       1   obj     _     _
+2   kita    ang        PRON    PRP     Number=Sing|Number=Dual|Case=Abs                       1   obj     _     SpaceAfter=No
 3   .       .          PUNCT   .       _                                                      1   punct   _     _
